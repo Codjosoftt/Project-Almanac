@@ -30,6 +30,6 @@ for i in range(1, 10): # days 365 in a year
           file. write("\n")
           file.write(d)
       os.system('git add .')
-      os.system('git commit --date="' + d + '" -m "commit hacking"')
-
+      os.system('git commit --date="' + d + '" -am "commit hacking"')
+    #borkor
 os.system('git push -u origin main')
